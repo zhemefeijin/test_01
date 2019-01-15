@@ -22,5 +22,5 @@ class Test_login(unittest.TestCase):
         assert True
     @allure.step(title='第一次添加脚本内容')
     def test_sub(self):
-        print('you are beautifug boy')
+        print('you are beautifug girl')
         assert 1
