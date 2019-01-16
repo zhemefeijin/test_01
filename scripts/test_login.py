@@ -9,7 +9,7 @@ class Test_login(unittest.TestCase):
     def test_username(self):
         allure.attach('描述','这也是用户名的测试脚本')
         print('mima')
-        assert False
+        assert 0
 
     @allure.step(title='密码的测试脚本')
     def test_password(self):
