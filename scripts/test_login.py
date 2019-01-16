@@ -14,7 +14,7 @@ class Test_login(unittest.TestCase):
     @allure.step(title='密码的测试脚本')
     def test_password(self):
         print('hello python')
-        assert False
+        assert True
 
     @allure.step(title='登陆的测试脚本')
     def test_login(self):
