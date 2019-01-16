@@ -9,12 +9,12 @@ class Test_login(unittest.TestCase):
     def test_username(self):
         allure.attach('描述','这也是用户名的测试脚本')
         print('mima')
-        assert 0
+        assert True
 
     @allure.step(title='密码的测试脚本')
     def test_password(self):
         print('hello python')
-        assert True
+        assert 0
 
     @allure.step(title='登陆的测试脚本')
     def test_login(self):
@@ -23,4 +23,4 @@ class Test_login(unittest.TestCase):
     @allure.step(title='第一次添加脚本内容')
     def test_sub(self):
         print('you are beautifug every one')
-        assert 0
+        assert True
